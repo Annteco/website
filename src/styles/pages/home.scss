@@ -1,0 +1,26 @@
+.about {
+  margin: 40px 0;
+  .about-img {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    img {
+      max-width: inherit;
+    }
+  }
+  .about-text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 768px) {
+  .about-img {
+      padding: 56px;
+    }
+  }
+}

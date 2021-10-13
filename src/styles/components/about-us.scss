@@ -1,0 +1,39 @@
+.abt{
+    .about-img{
+        padding:56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        img{
+            max-width:inherit;
+        }
+    }
+    .about-text {
+        padding:32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .block-left {
+        h5 {
+          line-height: 40px;
+        }
+      }
+      // .block {
+      //   .child {
+      //     display: flex;
+      //     justify-content: center;
+      //   }
+      //   .accordion.accordion-flush {
+      //     max-width: 800px;
+      //   }
+      // }
+      .mv{
+        padding: 80px 20px;
+        display:flex;
+        flex-direction: column;
+        max-width: 800px;
+      }
+}

@@ -1,0 +1,31 @@
+.footer {
+    // .wrapper {
+    //     padding:0 32px;
+    // }
+    img.ftr-logo {
+        width: 200px;
+    }
+    h2.ftr-cmpny{
+        display: inline-flex;
+        line-height: 0;
+        margin-left: 14px;
+    }
+    .left{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 16px;
+        
+    }    
+
+    .right{
+        display: flex;
+        padding: 0 16px;
+        justify-content: center;
+        flex-direction: column;
+    }    
+    .ftr-img{
+            width: 300px;
+    }
+}
